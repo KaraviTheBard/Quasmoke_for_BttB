@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"pSlash",
+  "closed":false,
+  "kind":0,
+  "name":"pSlash",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":279.0,"y":184.0,},
+    {"speed":100.0,"x":700.0,"y":459.0,},
+    {"speed":100.0,"x":666.0,"y":470.0,},
+    {"speed":100.0,"x":714.0,"y":455.0,},
+    {"speed":100.0,"x":278.0,"y":185.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

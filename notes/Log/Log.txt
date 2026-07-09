@@ -1,0 +1,28 @@
+Much of progress, I have not written here. But now, quite far in the process already,
+I have decided to make a log right inside of GMS2.
+   ______________________________________________________________________________________________________
+
+**14.4.2026**
+Today I:
+--put in the music for: main menu, Myso battle, Murkov (for more locations)
+--Changed the player death to restart the game
+--Fixed the problem with destroying the battle room (persistance of the rooms)
+
+What needs to be finished:
+--The death and victory sounds (dependancy on the global variables, ugh)
+--Please I beg of you, make new art (at least a background) for the battle
+   ______________________________________________________________________________________________________
+
+**5.6.2026**
+Today I:
+--Drawn placeholder Jura (world and dialogue sprite)
+--Written all of the starting dialogue for Jura (greetings included)
+--Made sure everything works and looks visualy okay as well
+--Made interaction with him possible
+--Made greeting work after first talk
+
+What to do next time:
+--Vlasta NPC with dialogue
+--Access to the other rooms
+--Anything that is in previous log
+   ______________________________________________________________________________________________________
