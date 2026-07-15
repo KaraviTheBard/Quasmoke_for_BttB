@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBattle",
-    "path":"sprites/sBattle/sBattle.yy",
+    "name":"sBmyso",
+    "path":"sprites/sBmyso/sBmyso.yy",
   },
   "spriteMaskId":null,
   "visible":true,
