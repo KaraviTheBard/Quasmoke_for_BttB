@@ -70,7 +70,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Back to the Beggining",
   "resources":[
@@ -193,6 +193,7 @@
     {"id":{"name":"sJuraDWorried","path":"sprites/sJuraDWorried/sJuraDWorried.yy",},},
     {"id":{"name":"sJuraWorld","path":"sprites/sJuraWorld/sJuraWorld.yy",},},
     {"id":{"name":"sKolacky","path":"sprites/sKolacky/sKolacky.yy",},},
+    {"id":{"name":"sKvakik","path":"sprites/sKvakik/sKvakik.yy",},},
     {"id":{"name":"sLeftPaw","path":"sprites/sLeftPaw/sLeftPaw.yy",},},
     {"id":{"name":"sLittlePlayer","path":"sprites/sLittlePlayer/sLittlePlayer.yy",},},
     {"id":{"name":"sMainMenu","path":"sprites/sMainMenu/sMainMenu.yy",},},
@@ -213,6 +214,7 @@
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
     {"id":{"name":"sPlaygroundDecor","path":"sprites/sPlaygroundDecor/sPlaygroundDecor.yy",},},
     {"id":{"name":"sPortrait","path":"sprites/sPortrait/sPortrait.yy",},},
+    {"id":{"name":"sRafaelo","path":"sprites/sRafaelo/sRafaelo.yy",},},
     {"id":{"name":"sRaindrop","path":"sprites/sRaindrop/sRaindrop.yy",},},
     {"id":{"name":"sRegal","path":"sprites/sRegal/sRegal.yy",},},
     {"id":{"name":"sRightPaw","path":"sprites/sRightPaw/sRightPaw.yy",},},
