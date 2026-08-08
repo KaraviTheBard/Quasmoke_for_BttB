@@ -16,10 +16,10 @@ global.GoHome = false;
 global.playerDead = false;
 
 
-global.playerVisible = true;
-
 //More globals
 global.dialogueActive = false;
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
 
 randomise();
+
+global.pause = false;

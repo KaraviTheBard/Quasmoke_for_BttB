@@ -1,5 +1,16 @@
 function scrPlayerStateMove()
 {
+	
+	
+	show_debug_message("MOVE STATE");
+	
+	    // Check pause FIRST
+    if (global.pause || global.dialogueActive)
+    {
+        state = scrPlayerStateStop;
+        exit;
+    }
+	
 	rightKey = keyboard_check(vk_right) || keyboard_check(ord("D"))
 	upKey = keyboard_check(vk_up) || keyboard_check(ord("W"))
 	leftKey = keyboard_check(vk_left) || keyboard_check(ord("A"))
@@ -61,4 +72,8 @@ function scrPlayerStateMove()
 		state = scrPlayerStateStop;
 	}
 	
+		if (global.pause)
+	{
+		state = scrPlayerStateStop;
+	}
 }

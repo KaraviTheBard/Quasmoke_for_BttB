@@ -8,8 +8,8 @@
   "name":"NPCmanager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Managers",
+    "path":"folders/Objects/Important!/Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
