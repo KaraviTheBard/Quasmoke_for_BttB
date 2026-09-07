@@ -9,7 +9,7 @@ if (point_in_rectangle(
     gui_y + gui_h / 2
 ))
 {
-    if (mouse_check_button_pressed(mb_left))
+    if (mouse_check_button_pressed(mb_left) && global.pause)
     {
 		room_goto(rmMainMenu);
 		global.pause = false;

@@ -1,0 +1,1 @@
+global.GoHome = true;

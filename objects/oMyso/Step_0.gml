@@ -13,7 +13,7 @@ if (global.EnemyDead && alarm[2] <= 0)
 
 }
 
-if (global.GoHome)
+if (global.GoHome && (room == rmBmyso || room == rmEnemyAttack))
 {
 	room_goto(rmRoadtoWv);
 	oPlayer.x = 640;

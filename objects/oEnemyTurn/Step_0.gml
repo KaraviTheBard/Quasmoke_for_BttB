@@ -62,7 +62,7 @@ if (showingSequence)
 			global.enemyTurn = false
 			global.playerHit = true
 			
-			room_goto(rmBmyso)
+			room_goto(rmBrafaelo)
 	    }
 	}
 

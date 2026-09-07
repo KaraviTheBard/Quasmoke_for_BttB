@@ -8,6 +8,7 @@ global.restartBroom = false; //battle room - Broom... yeah...
 global.enemyAlive = true;
 global.playerTurn = true;
 global.enemyTurn = false;
+global.RafaeloTurn = false;
 global.enemyHit = false;
 global.playerHit = false;
 global.playerNotHit = false;

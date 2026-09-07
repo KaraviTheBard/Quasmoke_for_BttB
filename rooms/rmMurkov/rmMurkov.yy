@@ -21,6 +21,7 @@
     {"name":"inst_42DA3EE3","path":"rooms/rmMurkov/rmMurkov.yy",},
     {"name":"inst_58F35A0D","path":"rooms/rmMurkov/rmMurkov.yy",},
     {"name":"inst_6A213E49","path":"rooms/rmMurkov/rmMurkov.yy",},
+    {"name":"inst_367E58E1","path":"rooms/rmMurkov/rmMurkov.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -29,10 +30,9 @@
         {"$GMRInstance":"v4","%Name":"inst_42DA3EE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42DA3EE3","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":-256.0,},
         {"$GMRInstance":"v4","%Name":"inst_58F35A0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58F35A0D","objectId":{"name":"oResume","path":"objects/oResume/oResume.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-576.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_6A213E49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A213E49","objectId":{"name":"oToMainMenu","path":"objects/oToMainMenu/oToMainMenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-576.0,"y":960.0,},
+        {"$GMRInstance":"v4","%Name":"inst_367E58E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_367E58E1","objectId":{"name":"oRain","path":"objects/oRain/oRain.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-256.0,"y":-192.0,},
       ],"layers":[],"name":"utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRAssetLayer":"","%Name":"rain","assets":[
-        {"$GMRParticleSystem":"v1","%Name":"particle_249246FA","colour":4294967295,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"particle_249246FA","particleSystemId":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},"resourceType":"GMRParticleSystem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9917014,"scaleY":1.0,"x":1311.5083,"y":192.0,},
-      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"rain","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRAssetLayer":"","%Name":"rain","assets":[],"depth":100,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"rain","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"$GMRTileLayer":"","%Name":"natureTopTiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"natureTopTiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":36,"SerialiseWidth":42,"TileCompressedData":[
               -106,0,7,368,369,370,371,372,373,374,-35,0,7,404,405,406,407,408,409,410,-9,0,1,401,-3,0,7,396,397,398,
@@ -178,7 +178,7 @@
   "roomSettings":{
     "Height":2304,
     "inheritRoomSettings":false,
-    "persistent":true,
+    "persistent":false,
     "Width":2688,
   },
   "sequenceId":null,

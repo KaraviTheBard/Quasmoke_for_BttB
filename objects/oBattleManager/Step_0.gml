@@ -4,6 +4,7 @@ if (global.makeNewBattle && global.restartBroom)
 	global.enemyAlive = true;
 	global.playerTurn = true;
 	global.enemyTurn = false;
+	global.RafaeloTurn = false;
 	global.enemyHit = false;
 	global.playerHit = false;
 	global.playerNotHit = false;
@@ -17,4 +18,9 @@ if (global.makeNewBattle && global.restartBroom)
 if (global.enemyTurn && global.EnemyDead = false)
 {
 	room_goto(rmEnemyAttack)
+}
+
+if (global.RafaeloTurn && global.EnemyDead = false)
+{
+	room_goto(rmEArafaelo);
 }

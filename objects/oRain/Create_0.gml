@@ -1,0 +1,1 @@
+global.startRain = true;
