@@ -6,7 +6,7 @@ if (global.enemyHit)
 
 if (global.EnemyDead && alarm[2] <= 0)
 {
-	global.enemyTurn = false;
+	global.KvakikTurn = false;
 	image_index = 2;
 	instance_create_layer(220, 100, "more", oEnemyDead);
 	alarm[2] = 150; //start alarm to get out the room
@@ -15,9 +15,9 @@ if (global.EnemyDead && alarm[2] <= 0)
 
 if (global.GoHome)
 {
-	room_goto(rmRoadtoWv);
+	room_goto(rmWaterfall);
 	oPlayer.x = 640;
-	oPlayer.y = 1375;
+	oPlayer.y = 740;
 }
 
 /*

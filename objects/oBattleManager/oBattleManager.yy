@@ -9,8 +9,8 @@
   "name":"oBattleManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Important!/Managers.yy",
+    "name":"battle",
+    "path":"folders/Objects/Important!/Managers/battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

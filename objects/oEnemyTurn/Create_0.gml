@@ -1,5 +1,5 @@
 // Create event of oBattle
-sequenceLength = 5;
+sequenceLength = 4;
 enemySequence = [];
 
 randomize();

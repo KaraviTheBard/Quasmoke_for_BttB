@@ -9,6 +9,7 @@ global.enemyAlive = true;
 global.playerTurn = true;
 global.enemyTurn = false;
 global.RafaeloTurn = false;
+global.KvakikTurn = false;
 global.enemyHit = false;
 global.playerHit = false;
 global.playerNotHit = false;

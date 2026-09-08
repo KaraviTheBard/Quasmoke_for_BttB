@@ -9,8 +9,8 @@
   "name":"oLeftPaw",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy attack",
-    "path":"folders/Objects/battles/Enemy attack.yy",
+    "name":"Myso",
+    "path":"folders/Objects/battles/Enemy attack/Myso.yy",
   },
   "parentObjectId":null,
   "persistent":false,

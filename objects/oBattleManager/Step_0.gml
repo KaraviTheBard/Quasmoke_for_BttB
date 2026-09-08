@@ -24,3 +24,8 @@ if (global.RafaeloTurn && global.EnemyDead = false)
 {
 	room_goto(rmEArafaelo);
 }
+
+if (global.KvakikTurn && global.EnemyDead = false)
+{
+	room_goto(rmEAkvakik);
+}

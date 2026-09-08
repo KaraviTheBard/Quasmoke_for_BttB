@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"enemy parts",
-    "path":"folders/Sprites/battle/enemy parts.yy",
+    "name":"myso",
+    "path":"folders/Sprites/battle/enemy parts/myso.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
