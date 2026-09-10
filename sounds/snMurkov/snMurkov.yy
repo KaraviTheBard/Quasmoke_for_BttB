@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":89.16463,
+  "duration":180.048,
   "exportDir":"",
   "name":"snMurkov",
   "parent":{

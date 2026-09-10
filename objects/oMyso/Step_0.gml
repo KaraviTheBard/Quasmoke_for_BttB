@@ -20,9 +20,3 @@ if (global.GoHome && (room == rmBmyso || room == rmEnemyAttack))
 	oPlayer.y = 1375;
 }
 
-/*
-if (global.enemyTurn && global.EnemyDead = false)
-{
-	room_goto(rmEnemyAttack)
-}
-*/

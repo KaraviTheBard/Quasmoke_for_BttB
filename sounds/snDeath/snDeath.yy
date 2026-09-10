@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snDeath",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"battle",
+    "path":"folders/Sounds/battle.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
