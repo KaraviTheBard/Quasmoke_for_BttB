@@ -18,18 +18,12 @@
     {"name":"inst_141B95CC","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
     {"name":"inst_4FEC9EF3","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
     {"name":"inst_599A7238","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
-    {"name":"inst_4186430E","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
-    {"name":"inst_53771979","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
-    {"name":"inst_2F11D106","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
     {"name":"inst_78097908","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
     {"name":"inst_58EA414D","path":"rooms/rmWvCrossroad/rmWvCrossroad.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"utilities","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_4186430E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4186430E","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-320.0,"y":384.0,},
-        {"$GMRInstance":"v4","%Name":"inst_53771979","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53771979","objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-224.0,"y":416.0,},
-        {"$GMRInstance":"v4","%Name":"inst_2F11D106","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F11D106","objectId":{"name":"oMusicManager","path":"objects/oMusicManager/oMusicManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-192.0,"y":320.0,},
         {"$GMRInstance":"v4","%Name":"inst_78097908","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78097908","objectId":{"name":"NPCmanager","path":"objects/NPCmanager/NPCmanager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-320.0,"y":320.0,},
       ],"layers":[],"name":"utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"walls","depth":100,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

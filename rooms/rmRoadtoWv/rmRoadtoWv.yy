@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_14434755_1","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_4BDE2C7D","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_5E17B5DC","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_5DFA6398","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
@@ -16,7 +15,6 @@
     {"name":"inst_5FAF8E63","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_6E54322D","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_26C7A196","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
-    {"name":"inst_74BC304","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -57,9 +55,7 @@
             {"$GMRInstance":"v4","%Name":"inst_56228983","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56228983","objectId":{"name":"oTrans","path":"objects/oTrans/oTrans.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":1.0,"x":448.0,"y":-64.0,},
           ],"layers":[],"name":"TopObjects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"utilities","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-            {"$GMRInstance":"v4","%Name":"inst_14434755_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14434755_1","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":0.0,},
             {"$GMRInstance":"v4","%Name":"inst_26C7A196","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26C7A196","objectId":{"name":"oBmyso","path":"objects/oBmyso/oBmyso.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":916.0,},
-            {"$GMRInstance":"v4","%Name":"inst_74BC304","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74BC304","objectId":{"name":"oMusicManager","path":"objects/oMusicManager/oMusicManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":0.0,},
           ],"layers":[],"name":"utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Objects","depth":600,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
       ],"name":"Instances","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

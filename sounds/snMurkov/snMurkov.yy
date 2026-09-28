@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":0,
+  "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":180.048,
+  "duration":89.16463,
   "exportDir":"",
   "name":"snMurkov",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snMurkov.mp3",
+  "soundFile":"snMurkov.ogg",
   "volume":1.0,
 }

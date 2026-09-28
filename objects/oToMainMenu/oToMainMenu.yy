@@ -11,8 +11,8 @@
   "name":"oToMainMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Menus",
+    "path":"folders/Objects/Important!/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":true,

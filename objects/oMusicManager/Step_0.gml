@@ -1,54 +1,71 @@
-//soundtrack
-if (room == rmMurkov && global.current_music != snMurkov)
+//Play the target song
+if (songAsset != targetSongAsset)
 {
-        audio_stop_all();
-		global.current_music = snMurkov;
-		audio_play_sound(snMurkov, 10, true);
-}
+	if (audio_is_playing(songInstance))
+	{
+		array_push(fadeOutInstances, songInstance);
+		array_push(fadeOutInstaVolume, fadeInInstaVolume);
+		array_push(fadeOutInstaTime, endFadeOutTime);
+		
+		songInstance = noone;
+		songAsset = noone;
+	}
 
-if (room == rmRoadtoWv)
+	if array_length(fadeOutInstances) == 0
+	{
+		if (audio_exists(targetSongAsset))
+			{
+				songInstance = audio_play_sound(targetSongAsset, 10, true)
+		
+				audio_sound_gain(songInstance, 0, 0)
+				fadeInInstaVolume = 0;
+			}
+		songAsset = targetSongAsset;
+	}
+}	
+
+
+//Volume control
+
+//Main song
+if audio_is_playing(songInstance)
 {
-	if (global.current_music == snMyso)
+	
+	if startFadeInTime > 0
 		{
-	        audio_stop_all();
-	        global.current_music = snMurkov
-			audio_play_sound(snMurkov, 8, true);
+			if fadeInInstaVolume < 1 {fadeInInstaVolume += 1/startFadeInTime;} else fadeInInstaVolume = 1;	
 		}
-
-}
-
-
-//battle tracks
-if ((global.enemyTurn == true || room == rmBmyso) && global.current_music != snMyso)
-{
-	audio_pause_all();
-	global.current_music = snMyso;
-	audio_play_sound(snMyso, 10, true);
-}
-else if ((global.RafaeloTurn == true || room == rmEArafaelo) && global.current_music != snMyso)
-{
-	audio_pause_all();
-	global.current_music = snMyso;
-	audio_play_sound(snMyso, 10, true);
-}
-else if ((global.KvakikTurn == true || room == rmEAkvakik) && global.current_music != snMyso)
-{
-	audio_pause_all();
-	global.current_music = snMyso;
-	audio_play_sound(snMyso, 10, true);
+	else
+		{
+			fadeInInstaVolume = 1;	
+		}
 	
-}
-else
-{
+	audio_sound_gain(songInstance, fadeInInstaVolume * global.musicVolume, 0)
 	
 }
 
 
-
-if (room == rmMainMenu && global.current_music != snFAVOURITE)
+//fading songs out
+for (var i = 0; i < array_length(fadeOutInstances); i++)
 {
-        audio_stop_all();
-        global.current_music = snFAVOURITE
-		audio_play_sound(snFAVOURITE, 10, true);
+	if (fadeOutInstaTime[i] > 0)
+	{
+		if fadeOutInstaVolume[i] > 0 {fadeOutInstaVolume[i] -= 1/fadeOutInstaTime[i]; };
+	}
+	else
+	{
+		fadeOutInstaVolume[i] = 0;
+	}
+	
+	audio_sound_gain(fadeOutInstances[i], fadeOutInstaVolume[i] * global.musicVolume, 0);
+	
+	if (fadeOutInstaVolume[i] <= 0)
+	{
+		if audio_is_playing(fadeOutInstances[i]) {audio_stop_sound(fadeOutInstances[i]); };
+		array_delete(fadeOutInstances, i, 1);
+		array_delete(fadeOutInstaVolume, i, 1);
+		array_delete(fadeOutInstaTime, i, 1);
+		i--;
+	}
+	
 }
-

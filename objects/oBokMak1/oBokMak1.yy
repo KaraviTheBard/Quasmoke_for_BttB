@@ -11,8 +11,8 @@
   "name":"oBokMak1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Menus",
+    "path":"folders/Objects/Important!/Menus.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBokMak1",
-    "path":"sprites/sBokMak1/sBokMak1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snRain",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":3,
+  "compressionQuality":5,
+  "conversionMode":0,
+  "duration":180.048,
+  "exportDir":"",
+  "name":"snRain",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"snRain.mp3",
+  "volume":1.0,
+}

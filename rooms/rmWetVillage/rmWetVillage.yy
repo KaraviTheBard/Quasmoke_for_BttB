@@ -20,11 +20,9 @@
     {"name":"inst_5DB72820","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_38AC9486","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_7A86D2CD","path":"rooms/rmWetVillage/rmWetVillage.yy",},
-    {"name":"inst_7C51A76F","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_6485EEC5","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_4D5280D3","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_69CF89E9","path":"rooms/rmWetVillage/rmWetVillage.yy",},
-    {"name":"inst_1A3F0B2A","path":"rooms/rmWetVillage/rmWetVillage.yy",},
     {"name":"inst_E9BCEEA","path":"rooms/rmWetVillage/rmWetVillage.yy",},
   ],
   "isDnd":false,
@@ -119,9 +117,7 @@
             {"$GMRInstance":"v4","%Name":"inst_69CF89E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69CF89E9","objectId":{"name":"oJura","path":"objects/oJura/oJura.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":768.0,},
           ],"layers":[],"name":"entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Utilities","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-            {"$GMRInstance":"v4","%Name":"inst_7C51A76F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C51A76F","objectId":{"name":"oMusicManager","path":"objects/oMusicManager/oMusicManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":64.0,},
             {"$GMRInstance":"v4","%Name":"inst_6485EEC5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6485EEC5","objectId":{"name":"NPCmanager","path":"objects/NPCmanager/NPCmanager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2816.0,"y":160.0,},
-            {"$GMRInstance":"v4","%Name":"inst_1A3F0B2A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A3F0B2A","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":-32.0,},
           ],"layers":[],"name":"Utilities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Objects","depth":800,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v4","%Name":"inst_49619FD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49619FD5","objectId":{"name":"oGrannzShop","path":"objects/oGrannzShop/oGrannzShop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2094017,"scaleY":1.11948,"x":1695.0,"y":186.82623,},
