@@ -2,7 +2,7 @@ function scrPlayerStateMove()
 {
 	
 	    // Check pause FIRST
-    if (global.pause || global.dialogueActive)
+    if (global.pause || global.dialogueActive || global.journalOpened)
     {
         state = scrPlayerStateStop;
         exit;

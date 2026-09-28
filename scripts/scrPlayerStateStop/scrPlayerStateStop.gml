@@ -24,4 +24,8 @@ function scrPlayerStateStop()
 	{
         state = scrPlayerStateMove;
     }
+		    if (!global.journalOpened) 
+	{
+        state = scrPlayerStateMove;
+    }
 }
