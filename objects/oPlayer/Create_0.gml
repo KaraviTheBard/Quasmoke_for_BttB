@@ -12,4 +12,3 @@ sprite[LEFT] = sPlayerLeft;
 sprite[DOWN] = sPlayerDown;
 
 face = DOWN
-

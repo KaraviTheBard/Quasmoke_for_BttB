@@ -1,4 +1,4 @@
-if (place_meeting(x,y, oPlayer) && keyboard_check_pressed(ord("E")))
+ if (place_meeting(x,y, oPlayer) && keyboard_check_pressed(ord("E")))
 	{
 		if (global.VlastaMet = false)
 		{

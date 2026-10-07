@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sStoneHouse1",
-    "path":"sprites/sStoneHouse1/sStoneHouse1.yy",
+    "name":"sStoneHouse",
+    "path":"sprites/sStoneHouse/sStoneHouse.yy",
   },
   "spriteMaskId":null,
   "visible":true,

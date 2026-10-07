@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBmyso",
-    "path":"sprites/sBmyso/sBmyso.yy",
+    "name":"sMyso",
+    "path":"sprites/sMyso/sMyso.yy",
   },
   "spriteMaskId":null,
   "visible":true,

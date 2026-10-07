@@ -9,8 +9,8 @@
   "name":"oTrans",
   "overriddenProperties":[],
   "parent":{
-    "name":"Important!",
-    "path":"folders/Objects/Important!.yy",
+    "name":"Collisons",
+    "path":"folders/Objects/Important!/Collisons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

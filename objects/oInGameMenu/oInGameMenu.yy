@@ -10,8 +10,8 @@
   "name":"oInGameMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menus",
-    "path":"folders/Objects/Important!/Menus.yy",
+    "name":"systems",
+    "path":"folders/Objects/Important!/Managers/systems.yy",
   },
   "parentObjectId":null,
   "persistent":false,

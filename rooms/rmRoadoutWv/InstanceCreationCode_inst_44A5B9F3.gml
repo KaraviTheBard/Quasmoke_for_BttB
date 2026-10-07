@@ -1,3 +1,3 @@
 targetRoom = rmWetVillage;
-targetX = 181;
-targetY = 1303;
+targetX = 240;
+targetY = 1400;

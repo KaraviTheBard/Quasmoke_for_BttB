@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Wv outskirts",
-    "path":"folders/Sprites/battle/enemies/Wv outskirts.yy",
+    "name":"enemies",
+    "path":"folders/Sprites/battle/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,3 +25,8 @@ global.iCamera = instance_create_layer(0,0,layer,oCamera);
 randomise();
 
 global.pause = false;
+
+
+//NPCs
+global.JuraMet = false;
+global.VlastaMet = false;

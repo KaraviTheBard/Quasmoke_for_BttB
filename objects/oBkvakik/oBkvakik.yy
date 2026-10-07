@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBKvakik",
-    "path":"sprites/sBKvakik/sBKvakik.yy",
+    "name":"sKvakik",
+    "path":"sprites/sKvakik/sKvakik.yy",
   },
   "spriteMaskId":null,
   "visible":true,

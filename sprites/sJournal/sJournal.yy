@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"menus",
-    "path":"folders/Sprites/Technical/menus.yy",
+    "name":"journal",
+    "path":"folders/Sprites/Technical/menus/journal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

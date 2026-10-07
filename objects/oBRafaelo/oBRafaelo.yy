@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBrafaelo",
-    "path":"sprites/sBrafaelo/sBrafaelo.yy",
+    "name":"sRafaelo",
+    "path":"sprites/sRafaelo/sRafaelo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -9,8 +9,8 @@
   "name":"oPause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Important!/Managers.yy",
+    "name":"Main",
+    "path":"folders/Objects/Important!/Managers/Main.yy",
   },
   "parentObjectId":null,
   "persistent":true,
