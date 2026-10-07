@@ -1,24 +1,13 @@
-/// @description Update camera
-
-//update destination
-if (instance_exists(follow)) 
+if (instance_exists(oPlayer))
 {
-	xTo = follow.x;
-	yTo = follow.y;
+    xTo = clamp(oPlayer.x, camWidth / 2, room_width - camWidth / 2);
+	yTo = clamp(oPlayer.y, camHeight / 2, room_height - camHeight / 2);
 }
 
-//update object position
-x += (xTo - x) / 15;
-y += (yTo - y) / 15;
+x += (xTo - x) / 30;
+y += (yTo - y) / 30;
 
-//keep camera center inside the room
-x = clamp(x,viewWidthHalf,room_width-viewWidthHalf);
-y = clamp(y,viewHeightHalf,room_height-viewHeightHalf);
+x = clamp(x, camWidth / 2, room_width - camWidth/2);
+y = clamp(y, camHeight / 2, room_height - camHeight/2);
 
-//screen shake
-x += random_range(-shakeRemain,shakeRemain);
-y += random_range(-shakeRemain,shakeRemain);
-
-shakeRemain = max(0,shakeRemain-((1/shakeLength)*shakeMagnitude));
-
-camera_set_view_pos(cam,x-viewWidthHalf,y-viewHeightHalf);
+camera_set_view_pos(view_camera[0], x - camWidth*0.5, y - camHeight*0.5);

@@ -1,11 +1,7 @@
 
-script_execute(state);
+script_execute(state)
 
-if (room == rmBrafaelo)
-	{
-		self.visible = false;
-	}
-	else if (room == rmMainMenu)
+if (room == rmMainMenu)
 	{
 		self.visible = false;
 	}

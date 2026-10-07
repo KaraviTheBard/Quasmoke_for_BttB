@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"snMyso",
+  "%Name":"snWalkTroughTown",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
-  "compression":0,
-  "compressionQuality":4,
+  "channelFormat":1,
+  "compression":3,
+  "compressionQuality":3,
   "conversionMode":0,
-  "duration":70.58866,
+  "duration":101.04163,
   "exportDir":"",
-  "name":"snMyso",
+  "name":"snWalkTroughTown",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snMyso.mp3",
+  "soundFile":"snWalkTroughTown.mp3",
   "volume":1.0,
 }
