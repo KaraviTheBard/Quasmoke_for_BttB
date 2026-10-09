@@ -1,1 +1,1 @@
-global.startRain = true;
+startRain = true

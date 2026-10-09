@@ -1,4 +1,4 @@
-//This one zou actuallz need to call!
+//This one you actually need to call!
 //Creates a textbox and start a conversation
 //@param topic - what topic the dialogue box should use
 function startDialogue(topic)
@@ -9,8 +9,6 @@ function startDialogue(topic)
 	var inst = instance_create_depth(x, y, -999, oTextbox);
 	inst.setTopic(topic);
 	global.dialogueActive = true;
-	show_debug_message("Here happems");
-	
 }
 
 function type(x, y, text, progress, width)

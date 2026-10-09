@@ -25,12 +25,10 @@ if (songAsset != targetSongAsset)
 }	
 
 
-//Volume control
-
+///Volume control///
 //Main song
 if audio_is_playing(songInstance)
 {
-	
 	if startFadeInTime > 0
 		{
 			if fadeInInstaVolume < 1 {fadeInInstaVolume += 1/startFadeInTime;} else fadeInInstaVolume = 1;	
@@ -38,12 +36,9 @@ if audio_is_playing(songInstance)
 	else
 		{
 			fadeInInstaVolume = 1;	
-		}
-	
+		}	
 	audio_sound_gain(songInstance, fadeInInstaVolume * global.musicVolume, 0)
-	
 }
-
 
 //fading songs out
 for (var i = 0; i < array_length(fadeOutInstances); i++)
@@ -67,5 +62,4 @@ for (var i = 0; i < array_length(fadeOutInstances); i++)
 		array_delete(fadeOutInstaTime, i, 1);
 		i--;
 	}
-	
 }

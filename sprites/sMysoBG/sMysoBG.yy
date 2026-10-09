@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"BGs",
-    "path":"folders/Sprites/battle/BGs.yy",
+    "path":"folders/Sprites/unused/BGs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

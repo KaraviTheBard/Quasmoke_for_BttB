@@ -8,17 +8,18 @@ var finished = textProgress == textLenght;
 if (sprite_exists(portraitSprite))
 {
 	
-
 	var draw_portrait_x = x + portraitX;
 	var draw_portrait_y = y + portraitY;
 	var draw_portrait_xscale = 1;
-	
 	
 	//what side is the portrait on?
 	if (portraitSide == PICTURE_SIDE.LEVO)
 	{
 	//shift the text over when the portrait is on the left 
 	//draw_text_x += portraitWidth + portraitX + padding;
+	
+	//I deleted this, because it is always the same, no text shifting in my game
+	//the code isthere if I decide otherwise
 	}
 	else if (portraitSide == PICTURE_SIDE.PRAVO)
 	{
@@ -26,7 +27,7 @@ if (sprite_exists(portraitSprite))
 		draw_portrait_x = x + width - portraitX - portraitWidth;
 	}
 	
-	// Animate the portrait when typing
+	//Animate the portrait when typing
 	var subimg = 0;
 		
 	if (!finished)
@@ -35,12 +36,8 @@ if (sprite_exists(portraitSprite))
 		    var anim_speed = 0.1; // frames per step
 		    subimg = floor((current_time div 16) * anim_speed) mod frames;
 		}
-
-
-	draw_sprite_ext(portraitSprite, subimg, draw_portrait_x + portraitWidth / 2, draw_portrait_y + portraitHeight / 2, draw_portrait_xscale, 1, 0, c_white, 1);
-	
+	draw_sprite_ext(portraitSprite, subimg, draw_portrait_x + portraitWidth / 2, draw_portrait_y + portraitHeight / 2, draw_portrait_xscale, 1, 0, c_white, 1);	
 }
-
 
 //draw the textbox
 draw_sprite_stretched(sprite_index, 0, x, y, width, height);
@@ -59,7 +56,6 @@ if (speakerName != " ")
 	draw_set_colour(speakerColour);
 	draw_text(x + textX + 470, y + textY - 60, speakerName);
 }
-
 
 //text
 draw_set_halign(fa_left);
@@ -84,11 +80,9 @@ if (finished && optionCount > 0)
 		{
 			opt_x += optionSelectionIndent;
 			draw_sprite(sOptionArrow, 0, opt_x, opt_y);
-		}
-		
+		}		
 		draw_sprite_stretched(sOptionBox, 0, opt_x-30, opt_y - optionHeight / 2, optionWidth, optionHeight);
-		draw_text(opt_x + optionTextX, opt_y, options[i].text);
-		
+		draw_text(opt_x + optionTextX, opt_y, options[i].text);		
 	}
 }
 

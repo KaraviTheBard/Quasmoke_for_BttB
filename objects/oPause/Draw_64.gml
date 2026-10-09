@@ -9,5 +9,4 @@ if (global.pause == true)
 		draw_set_colour(c_white);
 		
 		draw_sprite(sPauseMenu,0,x + 300 ,y)
-		
 	}

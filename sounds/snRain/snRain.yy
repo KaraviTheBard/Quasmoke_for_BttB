@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snRain",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"ambient",
+    "path":"folders/Sounds/ambient.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

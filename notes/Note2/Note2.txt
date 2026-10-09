@@ -1,2 +1,0 @@
-The pause menu in battle momentarily has unfactioning buttons cause of the problems of accidentally pushing them, so uh, fix that.
-Also the player makes themselves invisible after battle so that also needs fixing

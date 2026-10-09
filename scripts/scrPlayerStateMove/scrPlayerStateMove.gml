@@ -1,20 +1,17 @@
 function scrPlayerStateMove()
 {
-	
-	    // Check pause FIRST
+	// Check pause FIRST
     if (global.pause || global.dialogueActive || global.journalOpened)
     {
         state = scrPlayerStateStop;
         exit;
     }
 
-	
 	rightKey = keyboard_check(vk_right) || keyboard_check(ord("D"))
 	upKey = keyboard_check(vk_up) || keyboard_check(ord("W"))
 	leftKey = keyboard_check(vk_left) || keyboard_check(ord("A"))
 	downKey = keyboard_check(vk_down) || keyboard_check(ord("S"))
 
-	//get xspd and yspd
 	xspd = (rightKey - leftKey) * moveSpeed;
 	yspd = (downKey - upKey) * moveSpeed;
 
@@ -69,7 +66,6 @@ function scrPlayerStateMove()
 	{
 		state = scrPlayerStateStop;
 	}
-	
 		if (global.pause)
 	{
 		state = scrPlayerStateStop;

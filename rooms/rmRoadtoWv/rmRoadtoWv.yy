@@ -14,7 +14,6 @@
     {"name":"inst_5FAF8E63","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_6E54322D","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_2ABCC8E1","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
-    {"name":"inst_73E2F81B","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_2F1B29C0","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_6FCD0A8F","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
     {"name":"inst_1DC43C80","path":"rooms/rmRoadtoWv/rmRoadtoWv.yy",},
@@ -87,9 +86,7 @@
               -2147483648,-8,0,-13,-2147483648,-10,0,-16,-2147483648,1,0,-4,-2147483648,
             ],"TileDataFormat":1,},"tilesetId":{"name":"tsMurkovNature","path":"tilesets/tsMurkovNature/tsMurkovNature.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
         {"$GMRAssetLayer":"","%Name":"OverPlayer","assets":[],"depth":400,"effectEnabled":true,"effectType":null,"gridX":6,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"OverPlayer","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-        {"$GMRInstanceLayer":"","%Name":"entities","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-            {"$GMRInstance":"v4","%Name":"inst_73E2F81B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73E2F81B","objectId":{"name":"oBmyso","path":"objects/oBmyso/oBmyso.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4390625,"scaleY":0.46354166,"x":494.0,"y":985.0,},
-          ],"layers":[],"name":"entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+        {"$GMRInstanceLayer":"","%Name":"entities","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRAssetLayer":"","%Name":"UnderPlayer","assets":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_65D6C52A","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_65D6C52A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sLottaTrees","path":"sprites/sLottaTrees/sLottaTrees.yy",},"x":-1737.0,"y":-404.5,},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_53A5E815","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_53A5E815","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sLottaTrees","path":"sprites/sLottaTrees/sLottaTrees.yy",},"x":862.0,"y":-1155.0,},

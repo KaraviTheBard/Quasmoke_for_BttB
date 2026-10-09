@@ -3,7 +3,7 @@ state = scrPlayerStateMove;
 xspd = 0;
 yspd = 0;
 
-moveSpeed = 12;
+moveSpeed = 7;
 
 
 sprite[RIGHT] = sPlayerRight;

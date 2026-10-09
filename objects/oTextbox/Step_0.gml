@@ -1,4 +1,3 @@
-//get input
 var confirm = keyboard_check_pressed(confirmKey);
 
 //type out the text
@@ -11,7 +10,7 @@ textProgress = min(textProgress + textSpeed, textLenght);
 	exit;
  }
 
-//are we finished typeing
+//are we finished typing?
 if (textProgress == textLenght)
 {
 	if (optionCount > 0)
@@ -19,13 +18,13 @@ if (textProgress == textLenght)
 		var up = keyboard_check_pressed(upKey);
 		var down = keyboard_check_pressed(downKey);
 		
-		//cycle trough aavailable options
+		//cycle trough available options
 		var change = down - up;
 		if (change != 0)
 		{
 			currentOption += change;
 			
-			//wrap to the first and last option
+			//warp to the first and last option
 			if (currentOption < 0) currentOption = optionCount - 1;
 			else if (currentOption >= optionCount) currentOption = 0;
 		}

@@ -10,8 +10,8 @@
   "name":"oMusicManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"systems",
-    "path":"folders/Objects/Important!/Managers/systems.yy",
+    "name":"Main",
+    "path":"folders/Objects/Important!/Managers/Main.yy",
   },
   "parentObjectId":null,
   "persistent":true,

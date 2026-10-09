@@ -2,13 +2,13 @@
 
 //input
 confirmKey = vk_space; //button to press to go to the next page
-upKey = vk_up; //for moving up in options
-downKey = vk_down; //for moving down in options
+upKey = vk_up;
+downKey = vk_down;
 maxInputDelay = 5; //how many frames to go to the next page
 inputDelay = maxInputDelay;
 
 //Position
-margin = 35; //how much space hte textbox gets from edges of the screen
+margin = 35; //how much space the textbox gets from edges of the screen
 padding = 26; // how much space things inside the textbox get
 width = display_get_gui_width() - margin * 2;
 height = sprite_height * 3;
@@ -100,7 +100,7 @@ next = function()
 	}
 }
 
- //Set the text that should be tzped out
+ //Set the text that should be typed out
  setText = function(newText)
  {
 	text = newText;

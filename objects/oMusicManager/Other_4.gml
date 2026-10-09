@@ -29,8 +29,3 @@ if room == rmWaterfall
 {
 	set_song_ingame(snCloud, 50, 70);
 }
-
-if room == rmBmyso || room == rmBkvakik
-{
-	set_song_ingame(snConflict, 40, 50)	
-}

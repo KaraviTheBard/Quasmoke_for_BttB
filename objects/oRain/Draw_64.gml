@@ -1,9 +1,3 @@
-if (room == rmBmyso)
-{
-	
-}
-else
-{
 	draw_set_alpha(0.44);
 	draw_set_colour(make_colour_rgb(29, 38, 51));
 
@@ -11,6 +5,6 @@ else
 
 	draw_set_alpha(1);
 	draw_set_colour(c_white);
-}
+
 
 

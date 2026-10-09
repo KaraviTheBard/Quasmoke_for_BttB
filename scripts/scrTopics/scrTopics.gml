@@ -1,35 +1,5 @@
 global.topics = {};
 
-global.topics[$ "Morning"] =
-[
-	SPEAKER("Mike", sMikeNeutral, PICTURE_SIDE.PRAVO),
-	CHOICE("How are ya?",
-		OPTION("Good", "Chose good"),
-		OPTION("Sad", "Chose sad"))
-];
-
-global.topics[$ "Chose good"] =
-[
-	TEXT("That's nice! Me too!"),
-	GOTO("End of morning")
-]
-
-global.topics[$ "Chose sad"] =
-[
-	TEXT("Aw, why?"),
-	SPEAKER("Player", sPlayerNeutral, PICTURE_SIDE.LEVO),
-	TEXT("Cause MatPat is retired..."),
-	SPEAKER("Mike", sMikeNeutral, PICTURE_SIDE.PRAVO),
-	TEXT("..."),
-	SPEAKER("Mike", sMikeSad),
-	TEXT("..."),
-	GOTO("End of morning")
-]; 
-
-global.topics[$ "End of morning"] =
-[
-	TEXT("Welp, bye.")
-];
 
 #region JURA
 

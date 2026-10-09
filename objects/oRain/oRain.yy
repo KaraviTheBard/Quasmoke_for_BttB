@@ -10,8 +10,8 @@
   "name":"oRain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Managers",
-    "path":"folders/Objects/Important!/Managers.yy",
+    "name":"systems",
+    "path":"folders/Objects/Important!/Managers/systems.yy",
   },
   "parentObjectId":null,
   "persistent":true,

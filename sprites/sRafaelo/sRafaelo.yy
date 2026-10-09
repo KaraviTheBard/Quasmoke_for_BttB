@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"enemies",
-    "path":"folders/Sprites/battle/enemies.yy",
+    "path":"folders/Sprites/unused/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
